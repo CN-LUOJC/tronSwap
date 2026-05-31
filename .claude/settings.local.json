@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.sun.io)",
+      "WebFetch(domain:docs-zh.sun.io)",
+      "Bash(go build *)",
+      "Bash(cmd.exe /c \"where go\")",
+      "Read(//c/Users/Mrwhi/scoop/shims/**)",
+      "Read(//c/Users/Mrwhi/go/bin/**)",
+      "Read(//c/Users/Mrwhi/scoop/apps/go/current/**)",
+      "Bash(cmd.exe /c \"go version\")",
+      "Bash(cmd.exe /c \"curl --version\")",
+      "Bash(cmd.exe /c \"choco --version\")",
+      "Bash(cmd.exe /c \"winget --version\")",
+      "Bash(cmd.exe /c \"scoop --version\")",
+      "Bash(cmd.exe /c \"where curl\")",
+      "Bash(cmd.exe /c \"curl -V\")",
+      "Bash(powershell.exe *)"
+    ]
+  }
+}
